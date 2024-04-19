@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+
+<body>
+  <main>
+    <form class="form" data-form>
+      <div class="form__fields">
+        <label class="form__labels" for="day">Day</label>
+        <input class="form__inputs" type="number" name="day" id="day" placeholder="DD" required>
+        <span class="form__erro-message"></span>
+      </div>
+
+      <div class="form__fields">
+        <label class="form__labels" for="month">Month</label>
+        <input class="form__inputs" type="number" name="month" id="month" placeholder="MM" max="12" required>
+        <span class="form__erro-message"></span>
+      </div>
+
+      <div class="form__fields">
+        <label class="form__labels" for="year">Year</label>
+        <input class="form__inputs" type="number" name="year" id="year" placeholder="YYYY" required>
+        <span class="form__erro-message"></span>
+      </div>
+
+      <button type="submit" class="form__button">
+        <img src="assets/images/icon-arrow.svg" alt="calculate">
+      </button>
+    </form>
+
+    <section class="result-container">
+      <p class="result-container__p"><span class="result-container__numbers-span" id="years">--</span> years</p>
+      <p class="result-container__p"><span class="result-container__numbers-span" id="months">--</span> months</p>
+      <p class="result-container__p"><span class="result-container__numbers-span" id="days">--</span> days</p>
+    </section>
+
+  </main>
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/thaynaralimaa">Thaynara Lima</a>.
+  </footer>
+
+  <script type="module" src="assets/script/app.js"></script>
+</body>
+
+</html>

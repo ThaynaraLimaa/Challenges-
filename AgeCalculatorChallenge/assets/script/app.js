@@ -22,11 +22,10 @@ form.addEventListener('submit', (e) => {
             input.setCustomValidity('Date invalid.');
             input.parentNode.querySelector('.form__labels').classList.add('text-erro');
             input.classList.add('input-erro');
-            console.log(input)
         })
 
         return;
-    };
+    }
 
     calculate(userDate);
 

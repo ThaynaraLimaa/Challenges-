@@ -4,7 +4,7 @@
 
 
 # Frontend Mentor - Age calculator app solution
-Esta é a minha resolução do challenge [Age calculator app](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) do site NOME[Frontend Mentor](https://www.frontendmentor.io/)
+Esta é a minha resolução do challenge [Age calculator app](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) do site [Frontend Mentor](https://www.frontendmentor.io/)
 
 ## 🛠️ Requisitos do challenge 
 Users should be able to:
@@ -19,9 +19,6 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size ✔️
 - See hover and focus states for all interactive elements on the page ✔️
 - **Bonus**: See the age numbers animate to their final number when the form is submitted
-
-## 🔗 Links
-- My solution URL: [comming]()
 
 ## 💻 Tecnologias que utilizei para realizar o challenge
 - HTML
